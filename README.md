@@ -7,9 +7,8 @@
 ## Install
 
 ```sh
-# Install this module, with Istanbul's CLI and other
-# necessary modules
-$ npm i nyc source-map-support ts-node @webb/config-nyc  -D
+# Install this module, with Istanbul's CLI
+$ npm i nyc @webb/config-nyc  -D
 ```
 
 
@@ -20,7 +19,7 @@ $ npm i nyc source-map-support ts-node @webb/config-nyc  -D
 
 ```json
 {
-  extends: "@webb/config-nyc"
+  "extends": "@webb/config-nyc"
 }
 ```
 
@@ -36,6 +35,7 @@ $ npm i nyc source-map-support ts-node @webb/config-nyc  -D
 
 
 
-## Note
+## Notes
 
-This configuration is focused on TypeScript development. It should still work for ES5 projects, just specify the file extensions you wish to target for code coverage.
+- This configuration is focused on TypeScript development. It should still work for ES5 projects, just specify the file extensions you wish to target for code coverage.
+- You should enable sourcemaps in your `tsconfig.json` file.

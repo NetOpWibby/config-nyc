@@ -5,7 +5,7 @@
   },
   "description": "Opinionated Istanbul configuration",
   "dependencies": {
-    "@istanbuljs/nyc-config-typescript": "^1.0.1",
+    "@istanbuljs/schema": "^0.1.2",
     "nyc": "^15.0.0",
     "source-map-support": "^0.5.16",
     "ts-node": "^8.6.2"
@@ -44,5 +44,5 @@
     "test:typescript": "tsc"
   },
   "types": "dist/index.d.ts",
-  "version": "2020.03.10"
+  "version": "2020.03.10.1"
 }
