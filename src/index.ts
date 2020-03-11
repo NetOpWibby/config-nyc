@@ -26,5 +26,9 @@ export = {
     ".ts",
     ".tsx"
   ],
+  include: [
+    "test",
+    "tests"
+  ],
   parserPlugins: nyc.parserPlugins.concat("typescript")
 };
